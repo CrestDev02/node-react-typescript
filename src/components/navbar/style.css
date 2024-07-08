@@ -1,0 +1,27 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 25px;
+    color: white;
+    /* background-color: black; */
+}
+.logo{
+    margin: 0;
+    font-size: 40px;
+    text-decoration: none;
+    color: white;
+}
+
+.navLinks{
+    color: white;
+    display: flex;
+    justify-content: flex-end;
+    width: auto;
+    min-width: 20%;
+    align-items: center;
+}
+.navLinks a{
+    text-decoration: unset;
+    color: white;
+    margin-left: 15px;
+}

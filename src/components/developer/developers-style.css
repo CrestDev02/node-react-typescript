@@ -1,0 +1,21 @@
+.dev-container{
+    padding: 20px;
+    padding-top: 0;
+    box-sizing: border-box !important;
+}
+.dev-container .navContainer .navbar a {
+    color: black !important;
+}
+.heading{
+    margin: 0;
+    font-size: xx-large;
+    padding-left: 20px;
+}
+.subContainer{
+    padding: 20px;
+    padding-top: 0;
+}
+.dev-card{
+    /* min-width: 25%; */
+    margin-top: 25px;
+}

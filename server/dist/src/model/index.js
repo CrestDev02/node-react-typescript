@@ -1,0 +1,12 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.certificationModel = exports.skillModel = exports.experienceModel = exports.userModel = void 0;
+const user_1 = require("./user");
+Object.defineProperty(exports, "userModel", { enumerable: true, get: function () { return user_1.userModel; } });
+const experience_1 = require("./experience");
+Object.defineProperty(exports, "experienceModel", { enumerable: true, get: function () { return experience_1.experienceModel; } });
+const skill_1 = require("./skill");
+Object.defineProperty(exports, "skillModel", { enumerable: true, get: function () { return skill_1.skillModel; } });
+const certificattion_1 = require("./certificattion");
+Object.defineProperty(exports, "certificationModel", { enumerable: true, get: function () { return certificattion_1.certificationModel; } });
+// export const models:{use};
